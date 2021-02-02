@@ -3,9 +3,6 @@
 
 <head>
     <title>Startup Growth Analyis</title>
-    <style>
-
-    </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -18,7 +15,7 @@
     <div class="row">
         <div class="col-md-4">
             <div class="well" class="well1">
-                <img src="logo2.jpg" class="img-circle" alt="Logo" style="width:250px;height:250px">
+                <img src="img/logo2.jpg" class="img-circle" alt="Logo" style="width:250px;height:250px">
                 <h1>Startup growth Analysis</h1>
                 <br>
                 <p>Our website aimed at depicting the growth analysis of different startup domains , thereby enabling the Entreprenuer to become a <b>Business Tycoon</b></p>
@@ -28,13 +25,15 @@
         <div class="col-md-8" style="height:100%;background:lightgrey" class="div2">
 
             <div class="container-fluid">
+                <nav class="navbar-nav">
+                    <ul class="nav-item">
+                        <li class="nav-link active"><a data-toggle="tab" href="#home">Home</a></li>
+                        <li class="nav-link active"><a data-toggle="tab" href="#start">Startup</a></li>
+                        <li class="nav-link active"><a data-toggle="tab" href="#revenue">Revenue</a></li>
+                        <li class="nav-link active"><a data-toggle="tab" href="#growth">Growth Analyzer</a></li>
+                    </ul>
+                </nav>
 
-                <ul class="nav nav-tabs nav-justified">
-                    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-                    <li><a data-toggle="tab" href="#start">Startup</a></li>
-                    <li><a data-toggle="tab" href="#revenue">Revenue</a></li>
-                    <li><a data-toggle="tab" href="#growth">Growth Analyzer</a></li>
-                </ul>
                 <div class="tab-content">
                     <div id="home" class="tab-pane fade in active">
                         <form action="" method="post" name="login">
@@ -66,7 +65,7 @@
                                                         <label class="sr-only" for="form-password">Password</label>
                                                         <input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password">
                                                     </div>
-                                                    <button type="submit" class="btn btn-info">Login</button>
+                                                    <button type="submit" class="btn btn-success btn1">Login</button>
                                                 </form>
                                             </div>
                                         </div>
@@ -87,7 +86,7 @@
                     </div>
                     <div id="startup" class="tab-pane fade in">
                     </div>
-                    <div id="revenue" class="tab-pane fade in ">
+                    <div id="revenue" class="tab-pane fade in revenue2">
                         <div class="jumbotron">
 
                             <a href="home.php#revenue" class="btn btn-info" style="float:right">Next</a>

@@ -3,61 +3,6 @@
 
 <head>
   <title>Startup Growth Analyis</title>
-  <style>
-    #well1 {
-      background: lightblue;
-      height: 600px;
-      margin-top: 50px;
-      margin-left: 50px;
-      border-radius: 25px;
-      width: 300px;
-
-    }
-
-    #div2 {
-      margin-top: 50px;
-
-
-    }
-
-    li {
-      font-weight: bold;
-      font-size: 20px;
-    }
-
-    #img1 {
-      width: 250px;
-      height: 250px;
-      margin: 50px 50px 0px 0px;
-
-    }
-
-    #home {
-      background-image: url(growth.jpg);
-      margin-top: 125px;
-    }
-
-    #btn1 {
-      border-radius: 25px;
-      margin-left: 300px;
-      margin-top: 400px;
-      width: 200px;
-      height: 50px;
-      background: transparent;
-      border: 0px;
-      font-family: arial;
-      font-size: 30px;
-      color: black;
-      font-weight: bold;
-
-
-    }
-
-    #revenue2 {
-      float: left;
-      position: inherit;
-    }
-  </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -69,7 +14,7 @@
 <body>
   <div class="row" style="height:800px;">
     <div class="col-md-4">
-      <div class="well" id="well1">
+      <div class="well" class="well1">
         <img src="logo2.jpg" class="img-circle" alt="Logo" style="width:250px;height:250px">
         <h1>Startup growth Analysis</h1>
         <br>
@@ -89,7 +34,7 @@
         </ul>
         <div class="tab-content">
 
-          <div id="home" class="tab-pane fade in" style="background-image:url(img/secure.jpg)">
+          <div id="home" class="tab-pane fade in home" style="background-image:url(img/secure.jpg)">
 
             <div class="inner-bg">
               <div class="container">
@@ -171,9 +116,9 @@
 
 
           <div id="growth" class="tab-pane fade in">
-            <div id="growth2" style="background-image:url(growth.jpg);
+            <div class="growth2" style="background-image:url(growth.jpg);
 	height:700px;
-	margin-top:80px;"><a href="https://app.powerbi.com/groups/me/dashboards/af27dc5e-bb51-428d-8a11-d3e1e4ff99f3" target="_self"><button type="button" class="btn btn-success" id="btn1">Lets Analyze?</button></a> </div>
+	margin-top:80px;"><a href="https://app.powerbi.com/groups/me/dashboards/af27dc5e-bb51-428d-8a11-d3e1e4ff99f3" target="_self"><button type="button" class="btn btn-success" class="btn1">Lets Analyze?</button></a> </div>
           </div>
           <div id="startup" class="tab-pane fade in">
             <div class="jumbotron" style="background-image:url(start.jpeg);margin-top:30px;height:100%">
@@ -190,7 +135,7 @@
                   Some startups become unicorns, i.e. privately held startup companies valued at over $1 billion.</b></p>
             </div>
           </div>
-          <div id="revenue" class="tab-pane fade in active">
+          <div id="revenue" class="tab-pane fade in active revenue2">
             <div class="jumbotron" style="margin-top:30px;padding-top:10px;color:white;background:transparent">
               <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->

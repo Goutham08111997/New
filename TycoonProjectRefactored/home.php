@@ -3,94 +3,10 @@
 
 <head>
   <title>Startup Growth Analyis</title>
-  <style>
-    .li1 {
-      width: 60px;
-      text-align: center;
-      font-weight: bold;
-    }
-
-    .div2 {
-      height: 100px;
-      width: 70px;
-      background: blue;
-      margin-top: 50px;
-    }
-
-    .growth2 {
-      margin-top: 50px;
-      height: 300px;
-      width: 100%;
-      background-image: url(growth.jpg);
-      background: green;
-    }
-
-    .btn {
-      border-radius: 25px;
-      margin-left: 400px;
-    }
-
-    .home {
-      background-image: url(secure.jpg);
-      margin-top: 25px;
-    }
-
-    .well1 {
-      background: lightblue;
-      height: 600px;
-      margin-top: 50px;
-      margin-left: 50px;
-      border-radius: 25px;
-      width: 300px;
-
-    }
-
-    li {
-      font-weight: bold;
-      font-size: 20px;
-    }
-
-    .img1 {
-      width: 250px;
-      height: 250px;
-      margin: 50px 50px 0px 0px;
-
-    }
-
-    .home {
-      background-image: url(growth.jpg);
-      margin-top: 50px;
-    }
-
-    .btn1 {
-      border-radius: 25px;
-      margin-left: 300px;
-      margin-top: 400px;
-      width: 200px;
-      height: 50px;
-      background: transparent;
-      border: 0px;
-      font-family: arial;
-      font-size: 30px;
-      color: black;
-      font-weight: bold;
-
-
-    }
-
-    .growth {
-      height: 700px;
-    }
-
-    .revenue2 {
-      float: left;
-      position: inherit;
-    }
-  </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
@@ -118,7 +34,7 @@
         </ul>
         <div class="tab-content">
 
-          <div id="home" class="tab-pane fade in active" style="background-image:url(img/secure.jpg)">
+          <div id="home" class="tab-pane fade in home active" style="background-image:url(img/secure.jpg)">
 
             <div class="inner-bg">
               <div class="container">

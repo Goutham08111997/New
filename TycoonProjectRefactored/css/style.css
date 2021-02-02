@@ -8,6 +8,7 @@
     height: 100px;
     width: 70px;
     background: blue;
+    margin-top: 50px;
 }
 
 .growth2 {
@@ -27,10 +28,6 @@
     width: 300px;
 }
 
-.div2 {
-    margin-top: 50px;
-}
-
 li {
     font-weight: bold;
     font-size: 20px;
@@ -48,34 +45,19 @@ li {
 }
 
 .btn1 {
-    border-radius: 25px;
-    margin-left: 300px;
-    margin-top: 400px;
-    width: 200px;
+    width: 300px;
     height: 50px;
-    background: transparent;
     border: 0px;
     font-family: arial;
     font-size: 30px;
     color: black;
     font-weight: bold;
+    color: white;
 }
 
 .revenue2 {
     float: left;
     position: inherit;
-}
-
-.well1 {
-    background: lightblue;
-    height: 600px;
-    margin-top: 50px;
-    margin-left: 50px;
-}
-
-.div2 {
-    margin-top: 50px;
-    background: green;
 }
 
 .growth {
@@ -84,15 +66,4 @@ li {
     width: 950px;
     background: lightgrey;
     background-image: url("logo.jpg");
-}
-
-li {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.img1 {
-    width: 250px;
-    height: 250px;
-    margin: 50px 50px 0px 0px;
 }
