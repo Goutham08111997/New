@@ -5,94 +5,97 @@
     <title>Startup Growth Analyis</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <div class="row">
         <div class="col-md-4">
-            <div class="well" class="well1">
-                <img src="img/logo2.jpg" class="img-circle" alt="Logo" style="width:250px;height:250px">
+            <div class="card well1">
+                <img src="img/logo2.jpg" class="rounded-circle" alt="Logo" style="width:250px;height:250px">
                 <h1>Startup growth Analysis</h1>
                 <br>
                 <p>Our website aimed at depicting the growth analysis of different startup domains , thereby enabling the Entreprenuer to become a <b>Business Tycoon</b></p>
 
             </div>
         </div>
-        <div class="col-md-8" style="height:100%;background:lightgrey" class="div2">
+        <div class="col-md-8" style="height:100%;" class="div2">
 
             <div class="container-fluid">
-                <nav class="navbar-nav">
-                    <ul class="nav-item">
-                        <li class="nav-link active"><a data-toggle="tab" href="#home">Home</a></li>
-                        <li class="nav-link active"><a data-toggle="tab" href="#start">Startup</a></li>
-                        <li class="nav-link active"><a data-toggle="tab" href="#revenue">Revenue</a></li>
-                        <li class="nav-link active"><a data-toggle="tab" href="#growth">Growth Analyzer</a></li>
-                    </ul>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <links>
+                        <ul class="navbar-nav">
+                            <li class="nav-item active"><a class="nav-link" data-toggle="tab" href="#home">Home</a></li>
+                            <li class="nav-item disabled"><a class="nav-link" data-toggle="tab" href="#startup">Startup</a></li>
+                            <li class="nav-item disabled"><a class="nav-link" data-toggle="tab" href="#revenue" hidden>Revenue</a></li>
+                            <li class="nav-item disabled"><a class="nav-link" data-toggle="tab" href="#growth" hidden>Growth Analyzer</a></li>
+                        </ul>
+                    </links>
+
                 </nav>
 
-                <div class="tab-content">
-                    <div id="home" class="tab-pane fade in active">
-                        <form action="" method="post" name="login">
-                            <div class="inner-bg">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-sm-8 col-sm-offset-2 text">
-                                            <h1> Login</h1>
-                                        </div>
+                <div id="home">
+                    <form action=" " method="post " name="login ">
+                        <div class="inner-bg ">
+                            <div class="container ">
+                                <div class="row ">
+                                    <div class="col-sm-8 col-sm-offset-2 text ">
+                                        <h1> Login</h1>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-sm-6 col-sm-offset-3 form-box">
-                                            <div class="form-top">
-                                                <div class="form-top-left">
-                                                    <h3>Login to our site</h3>
-                                                    <p>Enter your username and password to log on:</p>
-                                                </div>
-                                                <div class="form-top-right">
-                                                    <i class="fa fa-lock"></i>
-                                                </div>
-                                            </div>
-                                            <div class="form-bottom">
-                                                <form role="form" action="" method="post" class="login-form">
-                                                    <div class="form-group">
-                                                        <label class="sr-only" for="form-username">Username</label>
-                                                        <input type="text" name="form-username" placeholder="Username..." class="form-username form-control" id="form-username">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="sr-only" for="form-password">Password</label>
-                                                        <input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password">
-                                                    </div>
-                                                    <button type="submit" class="btn btn-success btn1">Login</button>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-
                                 </div>
+                                <div class="row ">
+                                    <div class="col-sm-6 col-sm-offset-3 form-box ">
+                                        <div class="form-top ">
+                                            <div class="form-top-left ">
+                                                <h3>Login to our site</h3>
+                                                <p>Enter your username and password to log on:</p>
+                                            </div>
+                                            <div class="form-top-right ">
+                                                <i class="fa fa-lock "></i>
+                                            </div>
+                                        </div>
+                                        <div class="form-bottom ">
+                                            <form role="form " action=" " method="post " class="login-form ">
+                                                <div class="form-group ">
+                                                    <label class="sr-only " for="form-username ">Username</label>
+                                                    <input type="text " name="form-username " placeholder="Username... " class="form-username form-control " id="form-username ">
+                                                </div>
+                                                <div class="form-group ">
+                                                    <label class="sr-only " for="form-password ">Password</label>
+                                                    <input type="password " name="form-password " placeholder="Password... " class="form-password form-control " id="form-password ">
+                                                </div>
+                                                <button type="submit " class="btn btn-success btn1 ">Login</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
-
-
-                        </form>
-                    </div>
-
-
-                    <div id="growth" class="tab-pane fade in ">
-
-                        <p style="float:left">
-                            <a class="btn btn-info" href="#" style="width:200px;height:50px;text-align:center;margin:0px 100px 10px 400px">Lets analyze..</a>
-                    </div>
-                    <div id="startup" class="tab-pane fade in">
-                    </div>
-                    <div id="revenue" class="tab-pane fade in revenue2">
-                        <div class="jumbotron">
-
-                            <a href="home.php#revenue" class="btn btn-info" style="float:right">Next</a>
                         </div>
+
+
+                    </form>
+                </div>
+
+
+                <div id="growth ">
+
+                    <p style="float:left ">
+                        <a class="btn btn-info " href="# " style="width:200px;height:50px;text-align:center;margin:0px 100px 10px 400px ">Lets analyze..</a>
+                </div>
+                <div id="startup ">
+                </div>
+                <div id="revenue ">
+                    <div class="card ">
+
+                        <a href="home.php#revenue " class="btn btn-info " style="float:right ">Next</a>
                     </div>
                 </div>
+
             </div>
 
         </div>

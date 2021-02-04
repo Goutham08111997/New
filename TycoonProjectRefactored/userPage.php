@@ -5,10 +5,12 @@
 	<title>Startup Growth Analyis</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 	<link rel="stylesheet" href="css/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -66,14 +68,14 @@
 								*A revenue stream is a company’s single source of revenue. A company can have zero or many revenue streams, depending on its size.<br>
 								*A revenue model is the strategy of managing a company’s revenue streams and the resources required for each revenue stream.<br>
 								*A business model is the structure comprised of all aspects of a company, including revenue model and revenue streams, and describes how they all work together.
-								<h2 style="color:red">1. Ad-Based Revenue Model</h2><br>
-								<span style="color:blue"> -Ad-based revenue models entail creating ads for a specific website, service, app, or other product, and placing them on strategic, high-traffic channels. If your company has a website or you have a web-based company, Google’s AdSense is one of the most common tools get ads. For most websites, AdSense will earn about $5-10 per 1,000 page views.Affiliate Revenue Model</span>
+							<h2 style="color:red">1. Ad-Based Revenue Model</h2><br>
+							<span style="color:blue"> -Ad-based revenue models entail creating ads for a specific website, service, app, or other product, and placing them on strategic, high-traffic channels. If your company has a website or you have a web-based company, Google’s AdSense is one of the most common tools get ads. For most websites, AdSense will earn about $5-10 per 1,000 page views.Affiliate Revenue Model</span>
+							<br>
+							<h2 style="color:red">2.Web-based revenue model</h1>
 								<br>
-								<h2 style="color:red">2.Web-based revenue model</h1>
-									<br>
-									<span style="color:blue"> -Web-based revenue model is the affiliate revenue model, which works by promoting links to relevant products and collecting commission on the sales of those products, and can even work in conjunction with ads or separately.</span>
-							</p>
-							<a href="UserPage2.php" target="_self" class="btn btn-info" style="float:right;height:40px;width:80px;border-radius:25px;">Next</a>
+								<span style="color:blue"> -Web-based revenue model is the affiliate revenue model, which works by promoting links to relevant products and collecting commission on the sales of those products, and can even work in conjunction with ads or separately.</span>
+								</p>
+								<a href="UserPage2.php" target="_self" class="btn btn-info" style="float:right;height:40px;width:80px;border-radius:25px;">Next</a>
 
 
 						</div>
