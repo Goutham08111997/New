@@ -5,49 +5,31 @@
 }
 
 .div2 {
-    height: 100px;
     width: 70px;
     background: blue;
-    margin-top: 50px;
 }
 
 .growth2 {
-    margin-top: 50px;
-    height: 300px;
     width: 100%;
-    background-image: url(growth.jpg);
+    background-image: url(img/growth.jpg);
     background: green;
 }
 
-.well1 {
+.card1 {
     background: lightblue;
-    height: 600px;
-    margin-top: 50px;
     margin-left: 50px;
     border-radius: 25px;
-    width: 300px;
+    height: 600px;
 }
 
-li {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.img1 {
-    width: 250px;
-    height: 250px;
-    margin: 50px 50px 0px 0px;
-}
-
-.home {
-    background-image: url(growth.jpg);
-    margin-top: 125px;
+.startuplogo {
+    width: 10px;
+    height: 10px;
 }
 
 .btn1 {
     width: 300px;
     height: 50px;
-    border: 0px;
     font-family: arial;
     font-size: 30px;
     color: black;
@@ -55,15 +37,20 @@ li {
     color: white;
 }
 
-.revenue2 {
-    float: left;
-    position: inherit;
+#growth {
+    background-image: url("img/logo.jpg");
 }
 
-.growth {
-    margin-top: 50px;
-    height: 300px;
-    width: 950px;
-    background: lightgrey;
-    background-image: url("logo.jpg");
+.login {
+    text-align: center;
+    padding-left: 300px;
+}
+
+.login_btn {
+    margin-left: 200px;
+    width: 100px;
+}
+
+.nav-links {
+    margin-left: 300px;
 }
