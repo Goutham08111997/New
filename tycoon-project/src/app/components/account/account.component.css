@@ -1,0 +1,15 @@
+.account {
+    background-image: url("./../../../assets/images/secure.jpg");
+}
+
+.login {
+    padding-left: 300px;
+}
+
+.register {
+    padding-left: 300px;
+}
+
+.login_btn {
+    width: 100px;
+}

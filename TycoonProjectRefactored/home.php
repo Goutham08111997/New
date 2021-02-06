@@ -42,15 +42,8 @@
     </ul>
   </nav>
   <div class="row">
-    <div class="col-md-3">
-      <div class="card card1">
-        <img src="img/logo2.jpg" class="rounded-circle startuplogo" alt="Logo">
-        <h1>Startup growth Analysis</h1>
-        <br>
-        <p>Our website aimed at depicting the growth analysis of different startup domains ,
-          thereby enabling the Entreprenuer to become a <b>Business Tycoon</b></p>
-      </div>
-    </div>
+    
+    
     <div class="col-md-8">
       <div class="tab-content">
         <div id="home" class="tab-pane home active" style="background-image:url(img/secure.jpg)">

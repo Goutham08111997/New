@@ -1,0 +1,45 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark indigo">
+    <mdb-navbar-brand>
+        <a class="navbar-brand" href="#">
+            <img src="./../../assets/images/Tycoon_logo.jpg" class="rounded-circle" alt="Logo" style="width:40px;"> Tycoon
+        </a>
+    </mdb-navbar-brand>
+    <links>
+        <ul class="navbar-nav mr-auto navlinks">
+            <li class="nav-item active">
+                <a class="nav-link waves-light" routerLink="/startup" routerLinkActive="active" mdbWavesEffect>Startup<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" routerLink="/revenuemodel" routerLinkActive="active" mdbWavesEffect>Revenue</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" routerLink="analyzegrowth" routerLinkActive="active" mdbWavesEffect>Growth Analyzer</a>
+            </li>
+
+        </ul>
+        <ul class="navbar-nav ml-auto ">
+            <li class="nav-item ml-auto ">
+                <a class="nav-link " routerLink="/login">Logout</a>
+            </li>
+        </ul>
+    </links>
+
+</mdb-navbar>
+<div class="row content">
+    <div class="col-md-2">
+        <div class="card card1 black">
+            <img src=" ./../../assets/images/logo2.jpg " class="rounded-circle startuplogo " alt="Logo ">
+            <h1 class="text-center text-white">Startup growth Analysis</h1>
+            <br>
+            <p class="text-white">Our website aimed at depicting the growth analysis of different startup domains , thereby enabling the Entreprenuer to become a <b>Business Tycoon</b></p>
+        </div>
+    </div>
+    <div class="col-md-10">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+<footer class="footer ">
+    <div class="footer-copyright ">
+        <span>&copy; 2020 Cognizant. All rights reserved</span>
+    </div>
+</footer>

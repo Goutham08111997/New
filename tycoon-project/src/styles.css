@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+.li1 {
+    width: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.div2 {
+    width: 70px;
+    background: blue;
+}
+
+.growth2 {
+    width: 100%;
+    background-image: url(./assets/images/growth.jpg);
+    background: green;
+}
+
+.btn1 {
+    width: 300px;
+    height: 50px;
+    font-family: arial;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    color: white;
+}
+
+#growth {
+    background-image: url("./assets/images/logo2.jpg");
+}
