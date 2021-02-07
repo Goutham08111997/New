@@ -9,6 +9,8 @@ import { GrowthanalyzerComponent } from './components/growthanalyzer/growthanaly
 import { RevenuemodelComponent } from './components/revenuemodel/revenuemodel.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NavbarModule,WavesModule} from 'angular-bootstrap-md'; 
+import {HttpClientModule} from '@angular/common/http';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,9 @@ import { NavbarModule,WavesModule} from 'angular-bootstrap-md';
     BrowserModule,
     AppRoutingModule,
     NavbarModule,
-    WavesModule
+    WavesModule,
+    HttpClientModule,
+    CarouselModule
 
   ],
   providers: [],

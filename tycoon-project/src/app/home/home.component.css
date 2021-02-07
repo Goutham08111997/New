@@ -23,3 +23,7 @@
 .navlinks {
     margin-left: 300px;
 }
+
+li.nav-item a.active {
+    color: lightsalmon !important;
+}
