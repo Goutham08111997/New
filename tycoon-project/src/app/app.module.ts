@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { NavbarModule,WavesModule} from 'angular-bootstrap-md'; 
 import {HttpClientModule} from '@angular/common/http';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,8 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     NavbarModule,
     WavesModule,
     HttpClientModule,
-    CarouselModule
+    CarouselModule,
+    FormsModule
 
   ],
   providers: [],
