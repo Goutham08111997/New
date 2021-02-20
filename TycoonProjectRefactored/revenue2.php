@@ -13,26 +13,10 @@
 </head>
 
 <body>
-  <div class="row" style="height:800px;">
-    <div class="col-md-4">
-      <div class="well" class="well1">
-        <img src="logo2.jpg" class="img-circle" alt="Logo" style="width:250px;height:250px">
-        <h1>Startup growth Analysis</h1>
-        <br>
-        <p>Our website aimed at depicting the growth analysis of different startup domains , thereby enabling the Entreprenuer to become a <b>Business Tycoon</b></p>
-
-      </div>
-    </div>
-    <div class="col-md-8" style="height:900px;margin-top:30px;background:lightgrey">
+  <div class="row">
+    <div class="col-md-8">
 
       <div class="container-fluid">
-
-        <ul class="nav nav-tabs nav-justified">
-          <li><a data-toggle="tab" href="#home">Home</a></li>
-          <li><a data-toggle="tab" href="#startup" disabled>Startup</a></li>
-          <li class="active"><a data-toggle="tab" href="#revenue" disabled>Revenue</a></li>
-          <li><a data-toggle="tab" href="#growth" disabled>Growth Analyzer</a></li>
-        </ul>
         <div class="tab-content">
 
           <div id="home" class="tab-pane fade in home" style="background-image:url(img/secure.jpg)">

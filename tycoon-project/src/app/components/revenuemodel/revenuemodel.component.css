@@ -1,0 +1,32 @@
+::ng-deep .carousel-item {
+    background-color: #fbfbfb !important;
+}
+
+::ng-deep .mat-card {
+    font-family: inherit !important;
+}
+
+::ng-deep .carousel-control-next {
+    bottom: 250px;
+}
+
+::ng-deep .carousel-control-prev {
+    bottom: 250px
+}
+
+::ng-deep .carousel-indicators li {
+    background-color: black !important;
+}
+
+ ::ng-deep .carousel-indicators .active {
+    background-color: #0033a0 !important;
+}
+
+::ng-deep slide .item {
+    width: 100% !important;
+}
+
+.carouselimg {
+    height: 600px;
+    width: 100%;
+}
