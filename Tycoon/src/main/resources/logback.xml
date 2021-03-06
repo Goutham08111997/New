@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<!-- <timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss"/> -->
+    <appender name="file-appender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    	<file>logs/TycoonApplication.log</file>
+     	<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+     	<fileNamePattern>logs/TycoonApplication-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+        	<maxFileSize>10MB</maxFileSize>
+        	 <maxHistory>30</maxHistory>
+        	 <totalSizeCap>1GB</totalSizeCap>
+    	</rollingPolicy>
+        <encoder>
+            <pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger{36}.%M - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger{36}.%M - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <root level="info">
+        <appender-ref ref="file-appender" />
+    </root>
+    <logger name="com.goutham.Tycoon.TycoonApplication" level="info">
+    	<appender-ref ref="file-appender" />
+	</logger>
+    <logger name="com.goutham.Tycoon.TycoonApplication" level="info">
+    	<appender-ref ref="stdout" />
+	</logger>
+</configuration>
